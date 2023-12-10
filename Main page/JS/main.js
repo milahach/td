@@ -35,7 +35,7 @@ function addToDo(event) {
     // Create LI
     const newToDo = document.createElement('li');
     if (toDoInput.value === '') {
-            alert("You must write something!");
+            alert("Вы должны что-нибудь написать!");
         } 
     else {
         // newToDo.innerText = "hey";
