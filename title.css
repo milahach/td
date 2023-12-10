@@ -1,0 +1,85 @@
+body{
+    background: url("./Images/Vector.svg") left 0% bottom 100% no-repeat, url("./Images/Vector-1.svg") left 100% top 100% no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 174px;
+}
+
+.func_list{
+    display:flex;
+    flex-direction: column;
+}
+
+.elements{
+    display: inline-flex;
+    
+}
+
+.img{
+    margin: 0 12px 12px 0;
+}
+
+h1{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 3px 0;
+    padding: 5px 0;
+}
+
+.btn{
+    padding: 21px 95px;
+    background: #191938;
+    color: #DFDFE7;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 21px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background:  rgba(255, 255, 255, 0.771);
+    box-shadow: #191938 0 0 10px;
+    color: #88888f;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+     }
+    ::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+      }
+    /* optional: show position indicator in red */
+    ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+     }
